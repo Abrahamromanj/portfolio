@@ -1,0 +1,5 @@
+export {MainHeader} from './MainHeader/MainHeader.jsx'
+export {PresentationSection} from './PresentationSection/PresentationSection.jsx'
+export {AboutMeSection} from './AboutMeSection/AboutMeSection.jsx'
+export {TechnicalSkillsSection} from './TechnicalSkillsSection/TechnicalSkillsSection.jsx'
+export {Svg} from './Svg/Svg.jsx'
