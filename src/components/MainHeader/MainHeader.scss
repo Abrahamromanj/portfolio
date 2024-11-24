@@ -1,0 +1,18 @@
+@use '../../assets/css/general-styles' as general;
+
+.navbar{
+    height: 3.5rem;
+    width: 100vw;
+}
+
+.nav-link {
+    color: #000; /* Blanco puro para texto base */
+    
+    &:hover {
+        color: var(--orangeColor); /* Amarillo dorado para efecto hover */
+    }
+
+    i {
+        color: var(--darkBlueColor); /* Naranja brillante para íconos */
+    }
+}

@@ -1,23 +1,66 @@
-@keyframes gradient_animation {
-    0% {
-        background-position: 0
-    }
-    to {
-        background-position: 100%
-    }
+@use '../../assets/css/general-styles' as general;
+
+.ityped-cursor {
+    opacity: 1;
+    border-right: 0.2rem solid;
+    margin-left: 0.5rem;
+    color: var(--orangeColor);
+    font-size: 2.5rem;
 }
 
-.presentation-section{
-    background: radial-gradient(90% 106.38% at 122.89% 49.97%, #00f 0%, #0099ff 15%, #007acc 30%, #005c99 45%, #004080 60%, #003366 75%, #00264d 90%, #001a33 100%);
-    color: #fff;
-    background-size: 150%;
-    animation: gradient_animation 5s ease-in-out 0s infinite alternate;
 
-    > .presentation-section__img{
-        width: 20rem;
-        height: 20rem;
-        border-radius: 100%;
-        background-color: red;
-        object-fit: cover;
-    }
+.presentation_section{
+    position: relative;
+    overflow: hidden;
+    // @include general.background-gradient;
+
+        img{
+            margin-top: 8.5%;
+        }
+
+        h1{ 
+            font-size: 2rem;
+            color: #fff;
+            font-weight: 500;
+        }
+
+        h2{
+            display: inline-block;
+            color: var(--orangeColor);
+            margin-block-end: 0;
+            font-size: 2.5rem;
+        }
+
+        #videoPresentation{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -2;
+            object-fit: cover;
+        
+        }
+
+        p:nth-child(1){
+            color: #fff;
+            font-weight: 500;
+        }
+
+        p:nth-child(2){
+            color: var(--yellowColor);
+            font-weight: 400;
+        }
+}
+
+.presentation-section::after{
+   position: absolute;
+   content: " ";
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   background-color: var(--darkBlueColor);
+   opacity: 0.4;
+   z-index: -1;
 }
