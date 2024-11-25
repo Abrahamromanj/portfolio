@@ -7,7 +7,7 @@ export const PresentationSection = () => {
     return (
         <section id='presentation_section' className="presentation_section px-4 py-5 text-center">
 
-            <video id='videoPresentation' src={video} muted autoPlay loop></video>
+            <video id='videoPresentation' src={video} muted autoPlay></video>
 
             <img className="d-block mx-auto mb-4" src={selfieImage} data-aos="fade-up"  data-aos-duration="1500" alt="" width="150" height="150" style={{objectFit:'cover',borderRadius: '100%'}}/>
             
