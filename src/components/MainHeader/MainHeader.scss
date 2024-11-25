@@ -1,9 +1,13 @@
-@use '../../assets/css/general-styles' as general;
-
 .navbar{
+    position: sticky;
+    top: 0px;
     height: 3.5rem;
     width: 100vw;
+    background-color: #fff;
+    z-index: 10;
+    box-shadow: 0 0.05rem 1rem var(--darkBlueColor); /* Sombra inferior */
 }
+
 
 .nav-link {
     color: #000; /* Blanco puro para texto base */
@@ -14,5 +18,12 @@
 
     i {
         color: var(--darkBlueColor); /* Naranja brillante para íconos */
+    }
+}
+
+@media screen and (max-width:992px) {
+    .nav-link {
+        padding-left: 0.5rem;
+        background-color: #fff;
     }
 }
