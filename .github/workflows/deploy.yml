@@ -16,10 +16,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18.x'  # Asegúrate de usar una versión compatible
+          node-version: '20.x'  # Usar la versión más moderna de Node.js
 
       - name: Install dependencies
         run: yarn install
+
+      - name: Convert line endings to Unix format
+        run: find . -type f -print0 | xargs -0 dos2unix
 
       - name: Build project
         run: yarn build
