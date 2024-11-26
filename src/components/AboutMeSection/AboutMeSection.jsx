@@ -1,5 +1,6 @@
 import './AboutMeSection.scss'
 import selfie from '../../assets/images/selfie/selfie-abraham-escalada.jpeg'
+import selfie_compress from '../../assets/images/selfie/selfie-abraham-escalada.jpg'
 import video from '../../assets/videos/selfie-abraham-animacion.mp4'
 
 export const AboutMeSection = () =>{
@@ -21,7 +22,7 @@ export const AboutMeSection = () =>{
               </div>
 
               <div className="container_video_selfie_abraham col-10 col-sm-8 col-lg-6" >
-                  <video src={video} className="d-block mx-lg-auto w-100" alt="Foto tipo perfil de abraham roman usando un elegante traje" loading="lazy" autoPlay muted loop/>
+                  <img src={selfie_compress} className="d-block mx-lg-auto w-100" alt="Foto tipo perfil de abraham roman usando un elegante traje" loading="lazy" autoPlay muted loop/>
               </div>
           </div>
       </section>

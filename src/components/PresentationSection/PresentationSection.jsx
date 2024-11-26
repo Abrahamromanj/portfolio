@@ -1,7 +1,7 @@
 import './PresentationSection.scss';
 import selfieImage from '../../assets/images/selfie/selfie_abraham.jpg';
 import Ityped from '../ityped/ityped';
-import video from '../../assets/videos/video-abraham-roman-v2.mp4'
+import video from '../../assets/videos/video_comprimido/video-abraham-roman-v2.mp4'
 
 export const PresentationSection = () => {
     return (
