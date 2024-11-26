@@ -22,10 +22,9 @@ export const ContactSection = () =>{
                 </ul>
             </div>
         </div>
-        <div className="text-center mt-4">
-            <a href="https://wa.me/584243239994?text=Hola%20Abraham,%20he%20visto%20tu%20sitio%20web%20y%20estoy%20interesado/a%20en%20tus%20servicios.%20Por%20favor,%20contáctame%20para%20más%20información." className="btn btn-success btn-lg" target="_blank">
-                <i className="bi bi-whatsapp"></i> Enviar Mensaje
-            </a>
+
+        <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5" data-aos="fade-up"  data-aos-duration="500">
+                <a href="https://wa.me/584243239994?text=Hola%20Abraham,%20he%20visto%20tu%20sitio%20web%20y%20estoy%20interesado/a%20en%20tus%20servicios.%20Por%20favor,%20contáctame%20para%20más%20información." className="btn btn-primary btn-success btn-lg px-4 gap-3">"¡Contáctame ahora!"</a>
         </div>
     </section>
     
