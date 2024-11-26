@@ -5,7 +5,7 @@ import video from '../../assets/videos/selfie-abraham-animacion.mp4'
 export const AboutMeSection = () =>{
     return (
         <section id='aboutMe_section' className="aboutMe_section container col-xxl-8 px-4 py-5" data-aos="fade-up"  data-aos-duration="1500">
-          <div className="row align-items-center g-5 py-5">
+          <div className="row align-items-center justify-content-center g-5 py-5">
             
               <div className="col-lg-6 justify-content-center">
                 <h2 className="display-5 fw-bold text-body-emphasis lh-1 mb-5 text-center">¿Quién soy?</h2>
@@ -20,7 +20,7 @@ export const AboutMeSection = () =>{
                 </div>
               </div>
 
-              <div className="container_video_selfie_abraham col-10 col-sm-8 col-lg-6">
+              <div className="container_video_selfie_abraham col-10 col-sm-8 col-lg-6" >
                   <video src={video} className="d-block mx-lg-auto w-100" alt="Foto tipo perfil de abraham roman usando un elegante traje" loading="lazy" autoPlay muted loop/>
               </div>
           </div>
