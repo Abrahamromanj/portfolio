@@ -6,79 +6,70 @@
     font-size: 2.5rem;
 }
 
-
-.presentation_section{
+.presentation_section {
     position: relative;
     overflow: hidden;
-    // @include general.background-gradient;
 
-        img{
-            margin-top: 8.5%;
-        }
+    img {
+        margin-top: 8.5%;
+    }
 
-        h1{ 
-            font-size: 2rem;
-            color: #fff;
-            font-weight: 500;
-        }
+    h1 {
+        font-size: 2rem;
+        color: #fff;
+        font-weight: 500;
+    }
 
-        h2{
-            display: inline-block;
-            color: var(--orangeColor);
-            margin-block-end: 0;
-            font-size: 2.5rem;
-        }
+    h2 {
+        display: inline-block;
+        color: var(--orangeColor);
+        margin-block-end: 0;
+        font-size: 2.5rem;
+    }
 
-        #videoPresentation{
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            z-index: -2;
-            object-fit: cover;
-        
-        }
+    #videoPresentation {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -2;
+        object-fit: cover;
+    }
 
-        p:nth-child(1){
-            color: #fff;
-            font-weight: 500;
-        }
+    p:nth-child(1) {
+        color: #fff;
+        font-weight: 500;
+    }
 
-        p:nth-child(2){
-            color: var(--yellowColor);
-            font-weight: 400;
-        }
+    p:nth-child(2) {
+        color: var(--yellowColor);
+        font-weight: 400;
+    }
 }
 
-.presentation-section::after{
-   position: absolute;
-   content: " ";
-   width: 100%;
-   height: 100%;
-   top: 0;
-   left: 0;
-   background-color: var(--darkBlueColor);
-   opacity: 0.4;
-   z-index: -1;
+.presentation_section::after {
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--darkBlueColor);
+    opacity: 0.4;
+    z-index: -1;
 }
 
-@media screen and (min-width: 1440px) {
-    .presentation_section{
-
-        h1{
-
-        }
-
-        p:nth-child(1){
+@media screen and (width >= 1440px) {
+    .presentation_section {
+        p:nth-child(1) {
             margin-bottom: 4rem !important;
         }
     }
-    
 }
 
-@media screen and (min-width: 575px) {
-    .btn{
+@media screen and (width <= 575px) {
+    .btn {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -86,62 +77,42 @@
     }
 }
 
-
-@media screen and (min-width: 400px) {
-    .presentation_section{
-
+@media screen and (width <= 450px) {
+    .presentation_section {
         .ityped-cursor {
-            
-            font-size: 2.2rem;
-        }
-        
-
-        h1 + h2{
-            font-size: 2.2rem !important;  
-          
-        }
-
-        p:nth-child(1) {
-           margin-top: 4rem !important; 
-          
-        }
-
-    
-    }
-    
-}
-
-@media screen and (min-width: 450px) {
-    .presentation_section{
-
-        .ityped-cursor {
-            
             font-size: 1.8rem;
         }
-        
 
-        h1 + h2{
-            font-size: 1.8rem !important;  
+        h1 + h2 {
+        font-size: 1.8rem !important;
         }
-
-    
     }
-    
 }
 
-@media screen and (min-width: 405px) {
-    .presentation_section{
-
+@media screen and (width <= 405px) {
+    .presentation_section {
         .ityped-cursor {
             font-size: 1.6rem;
         }
-        
 
-        h1 + h2{
-            font-size: 1.6rem !important;  
+        h1 + h2 {
+            font-size: 1.6rem !important;
+        }
+    }
+}
+
+@media screen and (width <= 400px) {
+    .presentation_section {
+        .ityped-cursor {
+            font-size: 2.2rem;
         }
 
-    
+        h1 + h2 {
+            font-size: 2.2rem !important;
+        }
+
+        p:nth-child(1) {
+            margin-top: 4rem;
+        }
     }
-    
 }

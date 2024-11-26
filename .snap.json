@@ -1,0 +1,7 @@
+{
+    "source": "dist",
+    "userAgent": "react-simple-snap",
+    "include": ["/"],
+    "inlineCss": false,
+    "crawl": true
+}
