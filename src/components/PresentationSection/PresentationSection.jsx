@@ -1,5 +1,5 @@
 import './PresentationSection.scss';
-import selfieImage from '../../assets/images/selfie/selfie_abraham.jpg';
+import selfieImage from '../../assets/images/selfie/selfie_abraham.webp';
 import Ityped from '../ityped/ityped';
 import video from '../../assets/videos/video_comprimido/video-abraham-roman-v2.mp4'
 

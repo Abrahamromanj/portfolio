@@ -1,7 +1,7 @@
 import './ExperienceSection.scss'
-import logo_upwork from '../../assets/images/general/logo-upwork.png'
-import logo_satrim from '../../assets/images/general/logo_satrim.jpg'
-import logo_solanum from '../../assets/images/general/LOGO_SOLANUM.png'
+import logo_upwork from '../../assets/images/general/logo-upwork.webp'
+import logo_satrim from '../../assets/images/general/logo_satrim.webp'
+import logo_solanum from '../../assets/images/general/LOGO_SOLANUM.webp'
 
 export const ExperienceSection = () => {
     return (
