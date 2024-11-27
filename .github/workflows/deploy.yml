@@ -1,4 +1,4 @@
-name: Deploy Vite App to GitHub Pages
+name: Deploy Abraham App to GitHub Pages
 
 on:
   push:
@@ -21,6 +21,9 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
+      - name: Install dos2unix
+        run: sudo apt-get update && sudo apt-get install -y dos2unix
+
       - name: Convert line endings to Unix format
         run: find . -type f -print0 | xargs -0 dos2unix
 
@@ -33,3 +36,4 @@ jobs:
           personal_token: ${{ secrets.YOUR_SECRET_NAME }}
           publish_dir: ./dist
           publish_branch: gh-pages  # Desplegar en la rama gh-pages
+          

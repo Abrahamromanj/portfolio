@@ -1,7 +1,5 @@
 import './AboutMeSection.scss'
-import selfie from '../../assets/images/selfie/selfie-abraham-escalada.jpeg'
-import selfie_compress from '../../assets/images/selfie/selfie-abraham-escalada.jpg'
-import video from '../../assets/videos/selfie-abraham-animacion.mp4'
+import selfie_compress from '../../assets/images/selfie/selfie-abraham-escalada.webp'
 
 export const AboutMeSection = () =>{
     return (

@@ -1,9 +1,9 @@
 import './ProjectsSection.scss'
-import unefa from '../../assets/images/general/unefa.jpg'
-import satrim from '../../assets/images/general/satrim.png'
-import solanum from '../../assets/images/general/solanum.jpg'
-import insignia from '../../assets/images/general/insignia.jpg'
-import sistema_facturacion from '../../assets/images/general/sistema_facturacion_abraham.jpg'
+import unefa from '../../assets/images/general/unefa.webp'
+import satrim from '../../assets/images/general/satrim.webp'
+import solanum from '../../assets/images/general/solanum.webp'
+import insignia from '../../assets/images/general/insignia.webp'
+import sistema_facturacion from '../../assets/images/general/sistema_facturacion_abraham.webp'
 
 export const ProjectsSection = () =>{
     return (
