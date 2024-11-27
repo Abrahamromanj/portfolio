@@ -36,4 +36,3 @@ jobs:
           personal_token: ${{ secrets.YOUR_SECRET_NAME }}
           publish_dir: ./dist
           publish_branch: gh-pages  # Desplegar en la rama gh-pages
-          
