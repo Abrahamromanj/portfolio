@@ -7,17 +7,17 @@ export const PresentationSection = () => {
     return (
         <section id='presentation_section' className="presentation_section px-4 py-5 text-center">
 
-            <video id='videoPresentation' src={video} muted autoPlay></video>
+            <video id='videoPresentation' src={video} muted autoPlay loop></video>
 
-            <img className="d-block mx-auto mb-4" src={selfieImage} data-aos="fade-up"  data-aos-duration="1500" alt="" width="150" height="150" style={{objectFit:'cover',borderRadius: '100%'}}/>
+            <img className="d-block mx-auto mb-4" src={selfieImage} alt="" width="150" height="150" style={{objectFit:'cover',borderRadius: '100%'}}/>
             
-            <h1 className='h2' data-aos="fade-up"  data-aos-duration="1500">Abraham Román</h1>
+            <h1 className='h2'>Abraham Román</h1>
 
             <Ityped arrayText={['Ingeniero de Sistemas','Desarrollador de Software', 'Desarrollador Web']} typeElement="h2" elementId="title2" className="h1" />
 
             <div className="col-lg-6 mx-auto">
 
-                <p className="lead mb-4">Dedicado a la investigación y desarrollo de soluciones tecnológicas de alta calidad 🌟 utilizando las mejores metodologías y técnicas del mercado. 🚀</p>
+                <p className="lead mb-4 text-white">Dedicado a la investigación y desarrollo de soluciones tecnológicas de alta calidad 🌟 utilizando las mejores metodologías y técnicas del mercado. 🚀</p>
 
                 <p className="lead mb-4">¿Quiere desarrollar un proyecto de calidad? ¡Contáctame! Estaré encantado de ayudarle. 📩💬</p>
 

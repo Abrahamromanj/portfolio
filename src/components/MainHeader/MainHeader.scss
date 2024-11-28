@@ -21,9 +21,29 @@
     }
 }
 
-@media screen and (max-width:992px) {
+@media screen and (width <= 992px) {
     .nav-link {
         padding-left: 0.5rem;
         background-color: #fff;
+    }
+
+    .navbar-toggler{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2.8rem;
+        height: 2.8rem;
+        box-sizing: border-box;
+        padding: 0;
+
+        .navbar-toggler-icon{
+            display: block;
+            width: 80%;
+            height: 80%;
+            background-position-x: unset;
+            background-position-y: unset;
+            background-size: contain;
+            
+        }
     }
 }
